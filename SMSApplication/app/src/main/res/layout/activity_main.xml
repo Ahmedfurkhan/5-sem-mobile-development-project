@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <EditText
+        android:id="@+id/editTextPhone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="89dp"
+        android:layout_marginEnd="78dp"
+        android:layout_marginBottom="40dp"
+        android:hint="Enter Phone Number"
+        android:inputType="phone"
+        android:textSize="28dp" />
+
+    <EditText
+        android:id="@+id/editTextMessage"
+        android:layout_width="269dp"
+        android:layout_height="150dp"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="89dp"
+        android:layout_marginEnd="74dp"
+        android:layout_marginBottom="40dp"
+        android:hint="Enter Message"
+        android:textSize="28dp"
+        android:inputType="textMultiLine"
+        android:lines="5" />
+
+    <Button
+        android:id="@+id/btnsent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="109dp"
+        android:layout_marginBottom="156dp"
+        android:text="Send SMS"
+        android:textSize="28dp" />
+</RelativeLayout>
